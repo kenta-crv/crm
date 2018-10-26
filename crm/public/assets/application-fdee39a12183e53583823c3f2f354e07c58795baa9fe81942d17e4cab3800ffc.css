@@ -1,0 +1,984 @@
+@charset "UTF-8";
+/*テーブル情報*/
+/* line 10, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/companies.scss */
+.inside th {
+  background-color: #A4C6FF;
+}
+@charset "UTF-8";
+/* line 6, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/faqs.scss */
+.square_btn_faq {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: rgba(0, 180, 255, 0.8);
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  margin: 15px 15px;
+  width: 80%;
+}
+
+/* line 17, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/faqs.scss */
+.square_btn_faq:active {
+  /*ボタンを押したとき*/
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+/* line 1, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+@charset "UTF-8";
+/*インデックスの内容を記述しています。*/
+/* line 13, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.index-wrapper {
+  padding: 30px 50px 100px 0;
+  background-image: url(hachikin.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: black;
+}
+
+/* line 21, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.index-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-left: 30px;
+  line-height: 80px;
+}
+
+/* line 28, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.index-wrapper p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/* line 42, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.kintai-wrapper {
+  padding: 30px 50px 100px 0;
+  background-image: url(hachikin.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: black;
+}
+
+/* line 50, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.kintai-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-left: 30px;
+  line-height: 80px;
+}
+
+/* line 57, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.kintai-wrapper p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/* line 68, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.jyoseikin-wrapper {
+  padding: 30px 50px 100px 0;
+  background-image: url(gata.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: black;
+}
+
+/* line 76, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.jyoseikin-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-left: 30px;
+  line-height: 80px;
+}
+
+/* line 83, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.jyoseikin-wrapper p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/*メイントップの内容を記述しています。*/
+/* line 98, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.main-wrapper {
+  padding: 150px 50px 100px 0;
+  background-image: url(top.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+/*メイントップの文字を『H1タグ』の記述*/
+/* line 108, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.main-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-left: 30px;
+}
+
+/*メイントップの文字を『pタグ』の記述*/
+/* line 116, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.main-wrapper p {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+/*題名共通で記述しています。*/
+/* line 129, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 137, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.heading h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* line 143, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.heading h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* ヘッダーのスパンカラー指定*/
+/* line 150, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.heading span {
+  color: red;
+  font-weight: bold;
+}
+
+/*背景色を記述しています。*/
+/* line 160, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.green-wrapper {
+  background-color: rgba(0, 180, 255, 0.6);
+  /*ブルー*/
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* line 166, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.beige-wrapper {
+  background-color: rgba(0, 180, 255, 0.2);
+  /*薄いブルー*/
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/*商品内容５カラム*/
+/* line 177, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.five_column {
+  float: left;
+  width: 20%;
+}
+
+/* line 181, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.five_columnt-icon .image {
+  width: 250px;
+}
+
+/* line 184, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.five_column-icon {
+  position: relative;
+}
+
+/* line 187, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.five_column-icon .image {
+  width: 65%;
+}
+
+/* line 190, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.five_column-icon p {
+  margin-top: -160px;
+}
+
+/*商品内容４カラム*/
+/* line 201, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.product {
+  float: left;
+  width: 25%;
+}
+
+/* line 205, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.product-icon .image {
+  width: 250px;
+}
+
+/* line 208, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.product-icon {
+  position: relative;
+}
+
+/* line 211, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.product-icon .image {
+  width: 65%;
+}
+
+/*商品内容３カラム*/
+/* line 221, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.performance {
+  float: left;
+  width: 33%;
+}
+
+/* line 225, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.performance-icon .image {
+  width: 250px;
+}
+
+/* line 228, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.performance-icon {
+  position: relative;
+}
+
+/* line 231, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.performance-icon .image {
+  width: 50%;
+}
+
+/*プレスリリースに記述します。*/
+/* line 243, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.presses {
+  padding: 0.5em 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #6091d3;
+  /*文字色*/
+  background: rgba(97, 216, 54, 0.2);
+  border: solid 3px #217B57;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+  color: #217B57;
+  /*ヘッダーカラーグリーン*/
+}
+
+/* line 256, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.press {
+  float: left;
+  width: 33%;
+}
+
+/* line 260, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.press-icon .image {
+  width: 250px;
+}
+
+/* line 263, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.press-icon {
+  position: relative;
+}
+
+/* line 266, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.press-icon p {
+  width: 100%;
+}
+
+/*インフォメーションを記述します。*/
+/* line 276, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.infos {
+  padding: 0.5em 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #6091d3;
+  /*文字色*/
+  background: #F2F2E1;
+  border: solid 3px #217B57;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+  color: #217B57;
+  /*ヘッダーカラーグリーン*/
+}
+
+/*もっと見るを記述します。*/
+/* line 293, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.presses_more {
+  width: 150px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #6091d3;
+  /*文字色*/
+  background: #FFF;
+  border: solid 3px #217B57;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+  color: #217B57;
+  /*ヘッダーカラーグリーン*/
+}
+
+/*会社概要を記述します。*/
+/* line 314, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.image_president {
+  margin-left: 70px;
+  margin-right: 40px;
+  float: left;
+  witdh: 120px;
+}
+
+/* line 323, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.image2 {
+  float: left;
+  margin-left: 30px;
+  margin-right: 80px;
+  width: 350px;
+}
+
+/* line 330, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.image3 {
+  float: left;
+  margin-right: 80px;
+  height: 150px;
+}
+
+/* line 337, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.green_wrapper .introduce {
+  position: absolute;
+  width: 300px;
+  top: 10px;
+  left: 10px;
+}
+
+/* line 344, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.clear {
+  clear: left;
+}
+
+/*三番目のメイン記述のベース*/
+/* line 352, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* line 357, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.lesson-icon .image {
+  width: 250px;
+}
+
+/* line 361, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.lesson-icon {
+  position: relative;
+}
+
+/* line 365, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.lesson-icon p {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  color: white;
+}
+
+/* line 372, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+/*七番目のメイン記述のベース よくある質問 */
+/* line 383, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.faq-wrapper {
+  background-color: #e6ecf0;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #5f5d60;
+}
+
+/* line 390, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+#faq-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 397, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.faq-list-item {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* line 405, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.faq-list-item h3 {
+  font-size: 14px;
+}
+
+/* line 409, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.faq-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+/* line 417, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+}
+
+/* line 427, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/* line 432, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 440, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit_wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #F2F2E1;
+  /*ベージュ*/
+  text-align: center;
+  position: relative;
+}
+
+/* line 448, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.introduce {
+  width: 300px;
+  position: absolute;
+  top: -42px;
+  right: 80px;
+}
+
+/* line 456, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit-title {
+  padding-top: 8px;
+  padding-bottom: 3px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  height: 330px;
+  margin-bottom: 50px;
+}
+
+/* line 468, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit-title h2 {
+  margin-left: 280px;
+  margin-top: 50px;
+}
+
+/* line 473, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit-contents {
+  margin-top: 60px;
+}
+
+/* line 477, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.gizagiza {
+  width: 180px;
+  position: absolute;
+  left: -10px;
+  top: -35px;
+}
+
+/* line 484, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.number {
+  position: absolute;
+  z-index: 1;
+  left: 60px;
+  top: 15px;
+  font-size: 50px;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 1px #000;
+  opacity: 0.9;
+}
+
+/* line 496, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit-image {
+  float: left;
+  width: 250px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/* line 503, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.merit-title h2 {
+  line-height: 30px;
+}
+
+/* line 507, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+.ques {
+  width: 65%;
+  margin-top: 45px;
+}
+
+/* line 512, /var/www/xn--vckvb6c8fw90p7kt9m0f.jp/public_html/crm/app/assets/stylesheets/tops.scss */
+span {
+  color: red;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*ベース情報*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*書体はヒラギノフォントを利用します。*/
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  width: 100%;
+  /*【バックカラー】ブルー*/
+  background-color: rgba(241, 244, 248, 1.0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.none {
+  display: none;
+}
+
+/*ヘッダーの始まり*/
+
+/*ヘッダーのベース設定*/
+
+header {
+  height: 65px;
+  width: 100%;
+  /*【バックカラー】ブルー*/
+  background-color: rgba(0, 51, 204, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+    /*ロゴ指定*/
+    .menu_icon {
+    height: 65px;
+    }
+    
+/*ロゴは左へ*/
+.header-left {
+  float: left;
+  display: flex;
+  line-height: 65px;
+}
+
+.header_search{
+    margin-left:40px;
+}
+
+/*ヘッダーナビは右へ*/
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-size: 15px;
+  text-shadow: 2px 3px 1px #000;
+}
+
+/*ヘッダーナビの位置設定*/
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 13px;
+  color: white;
+  display: block;
+  float: left;
+  position: relative;
+  transition: all 0.5s;
+}
+
+/*ヘッダーの上にマウスを置くと色変化*/
+
+.header-right a:hover {
+  /*【マウスオーバーカラー】ブルー*/
+  background-color: rgba(0, 162, 255, 0.9);
+}
+
+/*ヘッダーの終わり*/
+
+/*エラー・編集コマンド共通*/
+
+.error {
+  font-size: 12px;
+  font-weight: bold;
+  color: tomato;
+}
+
+.command {
+  font-size: 10px;
+}
+
+/*メインのサイズ*/
+
+main {
+  margin-top: 65px;
+  margin-bottom: 100px;
+}
+
+/*テーブル共通*/
+
+table, td, th {
+  border: 8px rgba(213, 243, 249) solid;
+  /*ベージュ*/
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+td, th {
+  padding: 10px;
+  height: 15px;
+  font-size: 12px;
+}
+
+th {
+  /*ブルー*/
+  background-color: rgba(0, 180, 255, 0.8);
+  font-weight: bold;
+  width: 300px;
+}
+
+td {
+  /*グレー*/
+  background-color: #e6ecf0;
+  width: 200px;
+}
+
+.table_title {
+  margin-left: 330px;
+  background-color: transparent;
+  width: 350px;
+}
+
+.list_table {
+  margin-left: 370px;
+}
+
+/*必須項目*/
+
+.label {
+  background-color: orange;
+  /*オレンジ*/
+  margin-left: 5px;
+}
+
+.infobox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 20em;
+  /* 高さを制限(※) */
+  width: 700px;
+  overflow: scroll;
+  /* スクロールバーを表示(※) */
+  border: #2CA676 3px border;
+  /* 枠線を追加 */
+  background-color: #fff;
+  /* 背景色を追加 */
+}
+
+.center {
+  text-align: center;
+}
+
+.box7 {
+  padding: 1.0em;
+  margin: 2em 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #2CA676;
+  ;
+  /*背景色*/
+  border-left: double 7px #4ec4d3;
+  /*左線*/
+  border-right: double 7px #4ec4d3;
+  /*右線*/
+  list-style-type: none;
+}
+
+.box7 li {
+  margin: 0;
+  padding: 0;
+}
+
+/*メイン*/
+
+.main-wrapper {
+  padding: 30px 50px 100px 0;
+  background-image: url(gata.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: black;
+}
+
+/*幅・位置の指定*/
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*背景色を記述しています。*/
+
+.base-wrapper {
+  background-color: rgba(0, 180, 255, 0.6);
+  /*ブルー*/
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sub-wrapper {
+  background-color: rgba(241, 244, 248, 1.0);
+  /*薄いブルー*/
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/*こんなお悩みありませんか？*/
+
+.list {
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  opacity: 0.8;
+  padding-left: 600px;
+}
+
+.image-left {
+  width: 400px;
+  margin-left: 60px;
+  margin-top: 25px;
+  float: left;
+}
+
+/* takigawa */
+
+li.progress-list-item {
+  list-style-type: none;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+
+/*companies/commentデータ*/
+
+.list_display ul  {
+    list-style-type: none; 
+ border: 1px solid #000000;
+ padding: 5px;
+}
+
+.list_display ul  li {
+    color: #43acff;
+}
+
+
+.scroll{
+overflow: auto;　　　　/*tableをスクロールさせる*/
+white-space: nowrap;　　/*tableのセル内にある文字の折り返しを禁止*/
+}
+.scroll::-webkit-scrollbar{　　/*tableにスクロールバーを追加*/
+height: 5px;
+}
+.scroll::-webkit-scrollbar-track{　　/*tableにスクロールバーを追加*/
+background: #F1F1F1;
+}
+.scroll::-webkit-scrollbar-thumb {　　/*tableにスクロールバーを追加*/
+background: #BCBCBC;
+}
+
+.scroll-table {
+overflow: auto;
+white-space: nowrap;
+border: solid 1px #ddd;
+table {
+margin: 0;
+border: none;
+width:90%;
+}
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: rgba(0, 180, 255, 0.8);
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin:15px 15px;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}

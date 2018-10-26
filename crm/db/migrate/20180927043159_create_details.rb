@@ -4,7 +4,7 @@ class CreateDetails < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :product_type
       t.string :method
-      t.integer :tel
+      t.string :tel
       t.string :post
       t.string :address
       t.string :point
