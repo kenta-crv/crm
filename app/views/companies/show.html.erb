@@ -41,6 +41,8 @@
 </br>
 </br>
 
+
+<%= form_for([@company, @company.comments.build]) do |f| %>
 <table width="90%" class = "inside" >
 <tbody>
 <tr>
@@ -52,7 +54,6 @@
 <th>コメント</th>
 </tr>
 
-<%= form_for([@company, @company.comments.build]) do |f| %>
 <tr>
 <td><%= f.text_field :limited_each_name %></td>
 <td><%= f.select(:limited_each_curriculum,[
@@ -120,7 +121,7 @@
 
 </br>
 </br>
-
+<%= form_for([@company, @company.comments.build]) do |f| %>
 <table width="90%" class = "inside" >
 <tbody>
 <tr>
@@ -132,7 +133,6 @@
 <th>支給申請日</th>
 <th>コメント</th>
 </tr>
-<%= form_for([@company, @company.comments.build]) do |f| %>
 <tr>
 <td><%= f.text_field :carriaup_each_name %></td>
 <td><%= f.select(:carriaup_progress,[
@@ -198,6 +198,8 @@
 </br>
 </br>
 
+<%= form_for([@company, @company.comments.build]) do |f| %>
+
 <table width="90%" class ="inside">
 <tbody>
 <tr>
@@ -208,8 +210,6 @@
 <th>支給開始日</th>
 <th>コメント</th>
 </tr>
-
-<%= form_for([@company, @company.comments.build]) do |f| %>
 <tr>
 <td><%= f.select(:system_each_name,[
 ["（企）職業能力評価制度","（企）職業能力評価制度"],
@@ -300,10 +300,6 @@
 
 
 														<!-- データ保存 -->
-<<<<<<< HEAD
-=======
-
->>>>>>> 35d671c873e8a7dab3244bc0ff55b87de58d8bc3
 <%= form_for([@company, @company.comments.build]) do |f| %>
 <table width="90%">
 	<tbody>
@@ -312,10 +308,6 @@
 			<th colspan = "2">データ添付</th>
 		</tr>
 			<tr>
-<<<<<<< HEAD
-				
-=======
->>>>>>> 35d671c873e8a7dab3244bc0ff55b87de58d8bc3
 			<td>
 				<%= f.text_field :term_data, id: :book_term_data %>
 				<%= f.hidden_field :status, :value => :term_data %>
