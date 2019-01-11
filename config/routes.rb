@@ -3,6 +3,13 @@ Rails.application.routes.draw do
   devise_for :admins      #管理者ログイン
   devise_for :reads
   devise_for :users
+
+  devise_for :readers, controllers: { 
+    sessions: 'readers/sessions' ,
+    passwords:     'readers/passwords',
+    registrations: 'readers/registrations'
+  }
+  resources :readers
                                               #アップロード
   resources :uploader, only: [:edit, :update, :destroy]
 
@@ -76,8 +83,6 @@ Rails.application.routes.draw do
 
   get '/' => 'tops#subsidy'
   get '/company' => 'tops#company'
-
-
 
   get '*path', controller: 'application', action: 'render_404'
 

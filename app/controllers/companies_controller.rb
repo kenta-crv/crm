@@ -1,7 +1,6 @@
 class CompaniesController < ApplicationController
 #before_action :authenticate_admin!, except: [:progress]
 
-
   def index
      @type = params[:type]
   	 @q = Company.ransack(params[:q])
@@ -25,11 +24,19 @@ class CompaniesController < ApplicationController
      else
        @comments = Comment.where(company: @companies).page(params[:page]).per(400)
     end
+
+    if reader_signed_in?
+      render layout: 'layouts/reader'
+    end  
   end
 
   def show
   	@company = Company.find(params[:id])
   	@q = Company.ransack(params[:q])
+
+    if reader_signed_in?
+      render layout: 'layouts/reader'
+    end
   end
 
   def progress

@@ -32,7 +32,17 @@ end
         # your_admin_home_path
         super # 現在は暫定的に上位継承しています
        companies_path
+      when Reader
+        # your_admin_home_path
+        super # 現在は暫定的に上位継承しています
+       companies_path
       end
+      # when Reader
+      #   # your_admin_home_path
+      #   super # 現在は暫定的に上位継承しています
+      #  companies_path
+      # end
+      # companies_path
     end
 
     def after_sign_out_path_for(resource)

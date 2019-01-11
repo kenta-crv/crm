@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "ja">
+ <head>
+       <title>顧客管理システム</title>
+              <meta charset="utf-8">
+              <meta http-equiv="X^UA-Compatible" content="IE=edge">
+              <!--　レスポンシブの定義　-->
+               <meta name="viewport" content="width=device-width, initial-scale=1,0">
+               <%= csrf_meta_tags %>
+                <%= stylesheet_link_tag    'application', media: 'all'%>
+                <%= stylesheet_link_tag rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                 <%= javascript_include_tag 'application' %>
+                 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127545283-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+  gtag('config', 'UA-127545283-1');
+</script>
+</head>
+<header>
+    <div class="container">
+      <div class="header-left">
+                              <!-- ロゴ -->
+            <%= link_to '/companies' do %>
+                <%= image_tag("rogo.png", :class => "menu_icon")%>
+            <% end %>
+      </div>
+      <div class="header-right">
+           <% if reader_signed_in? %>
+<!-- current_user は現在ログインしているUserオブジェクトを返すdeviseのHelperメソッド -->
+<!-- *_path はUserモデルを作成したときに、deviseにより自動で作成されてますので、rake routesで確認できます -->
+        <strong><% current_reader.email  %></strong>
+            <%= link_to "ログアウト", destroy_reader_session_path, method: :delete %>
+<% else %>
+            <%= link_to "ログイン(admin)", new_reader_session_path%>
+ <% end %>
+
+       </div>
+    </div>
+
+</header>
+
+<body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <main>
+    <%= yield %>
+    </main>
+</body>
+</html>
