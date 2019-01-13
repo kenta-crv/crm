@@ -9,8 +9,7 @@ Rails.application.routes.draw do
     passwords:     'readers/passwords',
     registrations: 'readers/registrations'
   }
-  resources :readers
-                                              #アップロード
+                                                #アップロード
   resources :uploader, only: [:edit, :update, :destroy]
 
   get 'uploader/index'
